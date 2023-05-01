@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+  @apply cursor-pointer;
+  @apply text-black;
+
+  border-bottom: 3px solid red;
+}
